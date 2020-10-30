@@ -1,0 +1,77 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title><ion-icon name="globe-outline"></ion-icon>PrimeroDam</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-toolbar>
+  <ion-title><ion-icon name="globe-outline"></ion-icon>1º DAM</ion-title>
+  </ion-toolbar>
+  
+
+<ion-list>
+    <ion-item>
+      <ion-avatar>
+      <img src="https://cdn.ticbeat.com/src/uploads/2019/05/GettyImages-1005771222-810x598.jpg">
+      </ion-avatar>
+        <ion-checkbox [(ngModel)]="c1" color="primary" slot="end" (click)="presentToast()"></ion-checkbox>
+      <ion-label>PROGRAMACIÓN</ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-avatar>
+        <img src="https://static.wixstatic.com/media/1ef20e_3fb73ca575d14bc7adfe52b651096beb~mv2.jpg/v1/fill/w_653,h_368,al_c,lg_1,q_80/1ef20e_3fb73ca575d14bc7adfe52b651096beb~mv2.webp">
+         </ion-avatar>
+         <ion-checkbox  [(ngModel)]="c2" color="secondary" slot="end" (click)="presentToast7()"></ion-checkbox>
+      <ion-label>LENGUAJE DE MARCAS</ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-avatar>
+        <img src="https://www.campusmvp.es/recursos/image.axd?picture=IDEs-Java.png">
+         </ion-avatar>
+         <ion-checkbox [(ngModel)]="c3" color="danger" slot="end" (click)="presentToast2()"></ion-checkbox>
+      <ion-label>ENTORNOS DE DESARROLLO</ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-avatar>
+        <img src="https://concepto.de/wp-content/uploads/2018/04/base-de-datos-min-e1523470739502.jpg">
+         </ion-avatar>
+         <ion-checkbox [(ngModel)]="c4" color="light" slot="end" (click)="presentToast3()"></ion-checkbox>
+      <ion-label>BASE DE DATOS</ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-avatar>
+        <img src="https://www.si-mad.com/wp-content/uploads/2017/01/redes-informatica.jpg">
+         </ion-avatar>
+         <ion-checkbox [(ngModel)]="c5" color="dark" slot="end" (click)="presentToast4()"></ion-checkbox>
+      <ion-label>SISTEMAS INFORMÁTICOS</ion-label>
+    </ion-item>
+  
+
+  <ion-item>
+    <ion-avatar>
+      <img src="https://www.grupofol.es/wp-content/uploads/2019/02/fol-250-home.png">
+       </ion-avatar>
+       <ion-label>FOL</ion-label>
+       <ion-checkbox [(ngModel)]="c6" color="danger" (click)="presentToast5()"></ion-checkbox>
+  </ion-item>
+
+  <ion-item>
+    <ion-avatar>
+      <img src="https://www.trecebits.com/wp-content/uploads/2020/04/aprender-ingles.jpg">
+       </ion-avatar>
+       <ion-checkbox [(ngModel)]="c7" color="warning" slot="end" (click)="presentToast6()"></ion-checkbox>
+    <ion-label>INGLÉS</ion-label>
+  </ion-item>
+
+
+  
+
+    </ion-list>
+    
+    
+</ion-content>
